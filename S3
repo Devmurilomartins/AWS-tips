@@ -12,4 +12,16 @@ Search for “Policy examples” in somewhere is a example that you will need or
 img
 
 It Just take me some time to get some good example so i get that for you,:
-img
+code:
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AddPerm",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::My-DocName/*"
+		}
+	]
+}
