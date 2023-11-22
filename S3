@@ -1,2 +1,15 @@
 
 Granting read-only permission to an anonymous user
+
+
+Select the Bucket and go to tab “permissions“:
+img
+
+On the “Bucket policy” click on Edit.
+img
+
+Search for “Policy examples” in somewhere is a example that you will need or almost :
+img
+
+It Just take me some time to get some good example so i get that for you,:
+img
